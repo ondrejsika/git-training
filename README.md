@@ -27,6 +27,27 @@ apt install git
 choco install git
 ```
 
+## Editor
+
+I prefer VS Code, you can download it here: <https://code.visualstudio.com/download>
+
+Or download it using package manager:
+
+
+### Mac
+
+```
+brew cask install visual-studio-code
+```
+
+
+### Windows
+
+```
+choco install vscode
+```
+
+
 ## Basic Configuration
 
 ```
