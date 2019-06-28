@@ -26,3 +26,18 @@ apt install git
 ```
 choco install git
 ```
+
+## Basic Configuration
+
+```
+git config --global user.name "Ondrej Sika"
+git config --global user.email "ondrej@ondrejsika.com"
+```
+
+### Rebase workflow (if you want to use rebase workflow)
+
+```
+git config --global pull.ff only
+git config --global merge.ff only
+git config --global pull.rebase true
+```
