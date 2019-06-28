@@ -50,6 +50,10 @@ choco install vscode
 
 ## Basic Configuration
 
+I prefer global configuration (using `--global`) stored in your home directory applied to all repositories.
+
+You can configure just one repo, you can call `git config` from you repository with flag `--local`.
+
 ```
 git config --global user.name "Ondrej Sika"
 git config --global user.email "ondrej@ondrejsika.com"
