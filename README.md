@@ -251,3 +251,48 @@ Pull new commits from remote repository (Github).
 ```
 git pull
 ```
+
+## Working with Branches
+
+### List Branches
+
+```
+# Show local branches
+git branch
+
+# Show all branches (with the branches of remote repository - on Github)
+git branch --all
+```
+
+### Create a Branch
+
+```
+# Create branch (and dont switch to it)
+git branch <new_branch> [<branch_from>]
+
+# Switch branch
+git checkout <branch>
+
+# Create branch and switch to it
+git checkout -b <new_branch> [<branch_from>]
+```
+
+### Switch Branch
+
+```
+git checkout <branc>
+```
+
+### Push & Pull Branch
+
+```
+# Push commits to remote repository (Github)
+git push <remote> <branch> -u
+
+# Pull new commits to my branch
+git pull
+```
+
+### Merging Branches
+
+You can merge branches locally or on Github / Gitlab using Pull / Merge Requests.
