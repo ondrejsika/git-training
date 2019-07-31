@@ -81,11 +81,12 @@ git clone git@github.com:ondrejsika/example-repository.git
 
 ## Gitignore
 
-File `.gitignore` defines files ignored by Git. Those files doesn't exist for Git.
+File `.gitignore` defines files ignored by Git. Those files doesn't exist for Git. This is a simple example for Next.js project.
 
 ```
-node_modules
 .vscode
+node_modules
+.next
 out
 ```
 
