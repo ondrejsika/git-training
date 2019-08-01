@@ -140,6 +140,14 @@ git add index.html
 git add .
 ```
 
+### Partial `git add`
+
+You can use `-p` to switch into interactive mode and select part of changed file, which you want to commit.
+
+```
+git add -p <path>
+```
+
 ### Unstage
 
 Remove changes from next commit
