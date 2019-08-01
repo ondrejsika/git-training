@@ -255,6 +255,57 @@ gitk
 gitk --all
 ```
 
+### Remote Repository (Github, Gitlab)
+
+If you have clonned repository, `git clone` has added configuration of repository.
+
+Check it by:
+
+```
+git remote -v
+```
+
+and you will see:
+
+```
+ondrej@sika-macbookpro:~/example-repository (master)$ git remote -v
+origin	git@github.com:ondrejsika/example-repository.git (fetch)
+origin	git@github.com:ondrejsika/example-repository.git (push)
+```
+
+If you've created repository by `git init` you see nothing.
+
+### Add Remote Repository
+
+To add remote repository, you have to use:
+
+```
+git remote add <name> <url>
+```
+
+For example:
+
+```
+git remote add origin git@github.com:ondrejsika/example-repository.git
+```
+
+Now you can push & share your code with collaborators. Check `git remote -v`.
+
+### Rename & Remove Remote Repository
+
+If you want to rename remote repository, use:
+
+```
+git remote rename <name> <new name>
+```
+
+If you want delete remote, use:
+
+```
+git remote remove <name>
+```
+
+
 ### `git push`
 
 Push your commits to remote repository (Github).
