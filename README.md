@@ -76,6 +76,15 @@ Create on [Github](https://github.com/new) (eg.: `example-repository`) and clone
 
 ```
 git clone git@github.com:ondrejsika/example-repository.git
+cd example-repository
+```
+
+or create it locally
+
+```
+mkdir example-repository
+cd example-repository
+git init
 ```
 
 
