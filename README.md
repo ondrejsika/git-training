@@ -329,6 +329,43 @@ git pull
 
 ## Working with Branches
 
+### Stash
+
+Git stash is used for temporarily postpone your changes to make your working directory clean.
+
+That's required by some Git commands like `git rebase`, ... or sometimes for `git checkout`, `git cherry-pick`, ...
+
+If you want to stash changes, use:
+
+```
+git stash
+```
+
+And check status using `git status`.
+
+If you want to see, which files are stashed, use:
+
+```
+git stash show
+```
+
+If you want to see patch, add `-p`:
+
+```
+git stash -p
+```
+
+If you want to apply stashed changes and remove stash, use:
+
+```
+git stash pop
+```
+
+And check `git diff` and `git stash show`.
+
+More about stash in offical documentation - <https://git-scm.com/docs/git-stash>
+
+
 ### List Branches
 
 ```
