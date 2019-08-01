@@ -101,7 +101,7 @@ out
 
 ## EditorCongfig
 
-File `.editorconfig` define editors behavior, as configuration like you prefer spaces before tabs and tab size, for example.
+File `.editorconfig` define editors behavior, like spaces vs tabs or tab size, for example.
 
 ```
 root = true
