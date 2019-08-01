@@ -408,3 +408,38 @@ git pull
 ### Merging Branches
 
 You can merge branches locally or on Github / Gitlab using Pull / Merge Requests.
+
+
+## Git Reset
+
+Reset HEAD (current brach) to specific state.
+
+Set HEAD to specific state, but don't change files in working directory.
+
+```
+git reset <commit>
+```
+
+If you want also reset files, use `--hard`:
+
+```
+git reset --hard <commit>
+```
+
+### Remove Last Commit
+
+For example, you want to remove last commit but want to keep changes:
+
+```
+git reset HEAD~1
+```
+
+See `git status` and `git diff`, files from last commit are now in changed.
+
+If you want remove last commit with its changes, use:
+
+```
+git reset --hard HEAD~1
+```
+
+And see (`git status`, `git diff`), no changes.
