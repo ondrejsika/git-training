@@ -69,6 +69,28 @@ git config --global merge.ff only
 git config --global pull.rebase true
 ```
 
+### Git Editor
+
+Git use by default Vim or editor from `EDITOR` environment variable. If you want to use different editor, you can configure it.
+
+```
+git config --global core.editor emacs
+```
+
+You can use GUI editors like VS Code too:
+
+```
+git config --global core.editor "code --wait"
+```
+
+See [Associating text editors with Git](https://help.github.com/en/github/using-git/associating-text-editors-with-git) on Github Help to use your editor on your platform.
+
+Sources:
+
+- https://help.github.com/en/github/using-git/associating-text-editors-with-git
+- https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits/53901686#53901686
+
+
 ### Git PS1
 
 If you want to see your branch in terminal prompt you have to use [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).
