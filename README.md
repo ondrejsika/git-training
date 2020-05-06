@@ -419,6 +419,21 @@ git stash pop
 
 And check `git diff` and `git stash show`.
 
+If you have multiple stashes you work only with the latest.
+
+List all stashes:
+
+```
+git stash list
+```
+
+If you want to specify other stash you can use `stash@{0}`. For example:
+
+```
+git stash show stash@{1}
+git stash show -p stash@{1}
+```
+
 More about stash in offical documentation - <https://git-scm.com/docs/git-stash>
 
 
