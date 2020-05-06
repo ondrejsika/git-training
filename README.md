@@ -204,6 +204,22 @@ You can use `-p` to switch into interactive mode and select part of changed file
 git add -p <path>
 ```
 
+### `git diff` for new changes
+
+You can see changes before `git add` or `git commit`.
+
+See new changes in files managed by Git (not in new files):
+
+```
+git diff
+```
+
+If you want to see staged changes (added, prepared for commit), you have to use:
+
+```
+git diff --staged
+```
+
 ### Unstage
 
 Remove changes from next commit
