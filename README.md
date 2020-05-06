@@ -69,6 +69,34 @@ git config --global merge.ff only
 git config --global pull.rebase true
 ```
 
+### Git PS1
+
+If you want to see your branch in terminal prompt you have to use [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).
+
+It works on Unix (ZSH & Bash). If you use Windows, it works by default in Git Bash and there is no way how add it into CMD or PowerShell.
+
+Install On Unix:
+
+```sh
+wget https://github.com/git/git/raw/master/contrib/completion/git-prompt.sh
+mv git-prompt.sh ~/.git-prompt.sh
+echo ". ~/.git-prompt.sh " >> ~/.bashrc
+```
+
+You have to add `__git_ps1` to your `PS1` variable.
+
+Bash Example:
+
+```bash
+export PS1="\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ "
+```
+
+Save it to `.bashrc`:
+
+```bash
+echo 'export PS1="\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ "' >> ~/.bashrc
+```
+
 
 ## New Repository
 
