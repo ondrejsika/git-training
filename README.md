@@ -386,7 +386,7 @@ git stash show
 If you want to see patch, add `-p`:
 
 ```
-git stash -p
+git stash show -p
 ```
 
 If you want to apply stashed changes and remove stash, use:
