@@ -125,6 +125,12 @@ Show status of repository. See which files are edited or want to be committed.
 git status
 ```
 
+Show all untracked files in status
+
+```
+git status --untracked-files=all
+```
+
 ### `git add`
 
 Add file to next commit
