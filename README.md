@@ -248,6 +248,12 @@ git commit
 git commit -a
 ```
 
+#### Commit one file (not new files)
+
+```
+git commit <file>
+```
+
 #### Specify message in parameter insted of open vim
 
 ```
