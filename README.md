@@ -522,6 +522,18 @@ git reset --hard HEAD~1
 
 And see (`git status`, `git diff`), no changes.
 
+## `git reflog`
+
+Reflog shows a history of refference. By default shows a `HEAD`. You can undo any git operations even reset.
+
+```
+git reflog
+```
+
+```
+git reflog <branch>
+```
+
 ## Submodules
 
 Clone repository with submodules:
