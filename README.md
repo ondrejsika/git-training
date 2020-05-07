@@ -521,3 +521,64 @@ git reset --hard HEAD~1
 ```
 
 And see (`git status`, `git diff`), no changes.
+
+## Submodules
+
+Clone repository with submodules:
+
+```
+git clone --recursive <repo_url>
+```
+
+If you have cloned repository without `--recursive` you have to:
+
+```bash
+git submodule update --init
+# for nested submodules
+git submodule update --init --recursive
+```
+
+Add submodule to repository:
+
+```bash
+git submodule init
+git submodule add <submodule_repo_url> [<path>]
+```
+
+Add submodule and track specific branch:
+
+```
+git submodule add -b <branch> <submodule_repo_url> [<path>]
+```
+
+Update tracked branch:
+
+```
+git submodule set-branch --branch <branch> <path>
+```
+
+Update remote repository:
+
+```
+git submodule set-url <path> <newurl>
+```
+
+Update submodule from remote repository
+
+```
+git submodule update --remote
+```
+
+Pull changes & pull submodules
+
+```
+git pull --recurse-submodules
+```
+
+Execute command for each submodule:
+
+```bash
+git submodule foreach 'git reset --hard'
+# including nested submodules
+git submodule foreach --recursive 'git reset --hard'
+```
