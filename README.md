@@ -548,6 +548,26 @@ git reflog
 git reflog <branch>
 ```
 
+## `git blame`
+
+See authors of actual code
+
+```
+git blame <file>
+```
+
+See authors of code in specific revision
+
+```
+git blame <rev> <file>
+```
+
+See only lines from 1 to 10
+
+```
+git blame -L 1,10 <file>
+```
+
 ## Submodules
 
 Clone repository with submodules:
