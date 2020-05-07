@@ -568,6 +568,50 @@ See only lines from 1 to 10
 git blame -L 1,10 <file>
 ```
 
+## `git bisect`
+
+Git bisect helps you find commit which introduce a bug
+
+Start bisect session
+
+```
+git bisect start
+```
+
+Select goog commit
+
+```
+git bisect goog <ref>
+```
+
+Set bad commit
+
+```
+git bisect bad <ref>
+```
+
+Now check if actual working tree contains bug.
+
+If yes
+
+```
+git bisect bad
+```
+
+In not
+
+```
+git bisect good
+```
+
+Repeat it until bisect print out the commit which introduce a bug.
+
+To close bisect session, use:
+
+```
+git bisect reset
+```
+
 ## Submodules
 
 Clone repository with submodules:
