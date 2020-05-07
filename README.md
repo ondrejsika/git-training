@@ -225,20 +225,11 @@ git diff --staged
 Remove changes from next commit
 
 ```
-# Unstage new file
-git rm --cached <path>
+# Unstage all changes
+git reset
 
-# Unstage changes
-git reset HEAD <path>
-```
-
-Examples
-
-```
-git rm --cached index.html
-git reset HEAD index.html
-git rm --cached .
-git reset HEAD .
+# Unstage file
+git reset -- <path>
 ```
 
 ### `git commit`
