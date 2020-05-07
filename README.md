@@ -522,6 +522,20 @@ git reset --hard HEAD~1
 
 And see (`git status`, `git diff`), no changes.
 
+## Interactive Rebase
+
+You rewrite history, join commits, update messages, reorder commits, ...
+
+```
+git rebase -i <ref>
+```
+
+Example:
+
+```
+git reset -i HEAD~6
+```
+
 ## `git reflog`
 
 Reflog shows a history of refference. By default shows a `HEAD`. You can undo any git operations even reset.
