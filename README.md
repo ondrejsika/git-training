@@ -493,6 +493,9 @@ git pull
 
 You can merge branches locally or on Github / Gitlab using Pull / Merge Requests.
 
+### Rebase
+
+See my czech article about rebase: https://ondrej-sika.cz/git/rebase/
 
 ## Git Reset
 
