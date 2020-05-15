@@ -1,3 +1,5 @@
+[sika.io](https://sika.io) | <ondrej@sika.io> | [course ->](#course)
+
 # Git Training
 
     2019 Ondrej Sika <ondrej@ondrejsika.com>
@@ -47,6 +49,7 @@ brew cask install visual-studio-code
 choco install vscode
 ```
 
+## Course
 
 ## Basic Configuration
 
