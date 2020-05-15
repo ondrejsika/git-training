@@ -74,7 +74,7 @@ Also feel free to propose improvements by creating issues.
 
 For sharing links & "secrets".
 
-<https://tlk.io/sika-tf>
+<https://tlk.io/sika-git>
 
 
 ## Basic Configuration
