@@ -612,7 +612,7 @@ git rebase -i <ref>
 Example:
 
 ```
-git reset -i HEAD~6
+git rebase -i HEAD~6
 ```
 
 ## Cherry Pick
