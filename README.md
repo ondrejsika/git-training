@@ -70,6 +70,12 @@ For sharing links & "secrets".
 
 <https://tlk.io/sika-git>
 
+## Slack
+
+Join my Slack for future discussion & help.
+
+<https://sika.link/slack-sikapublic>
+
 ## Basic Configuration
 
 I prefer global configuration (using `--global`) stored in your home directory applied to all repositories.
