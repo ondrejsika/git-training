@@ -579,6 +579,77 @@ git reflog
 git reflog <branch>
 ```
 
+## `git tag`
+
+Create tag:
+
+```
+git tag <tag> [<ref>]
+```
+
+Example:
+
+```
+git tag v1.0.0
+git tag v1.0.0 HEAD~1
+git tag v1.0.0 master
+git tag v1.0.0 075615a
+```
+
+List tags:
+
+```
+git tag
+```
+
+Push tag:
+
+```
+git push <remote> <tag>
+```
+
+Example:
+
+```
+git push origin v1.0.0
+```
+
+Push all tags:
+
+```
+git push <remote> --tags
+```
+
+Example:
+
+```
+git push origin --tags
+```
+
+Delete tag (not recommended):
+
+```
+git tag -d <tag>
+```
+
+Example:
+
+```
+git tag -d v1.0.1
+```
+
+Delete tag from server:
+
+```
+git push <remote> :<tag>
+```
+
+Example:
+
+```
+git push origin :v1.0.2
+```
+
 ## `git blame`
 
 See authors of actual code
