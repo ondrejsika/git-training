@@ -140,6 +140,48 @@ Save it to `.bashrc`:
 echo 'export PS1="\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ "' >> ~/.bashrc
 ```
 
+## Aliases
+
+You can create own git aliases:
+
+```
+git config --global alias.<alias> <command>
+```
+
+Examle:
+
+```
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+```
+
+Usage of aliases is `git co` for `git checkout`, `git ci` for `git commit`, ...
+
+Those aliases work on every platform (event Windows).
+
+## My Git Aliases
+
+From [ondrejsika/dotfiles](https://github.com/ondrejsika/dotfiles/blob/master/core/bashrc#L49)
+
+```
+alias st='git status'
+alias sta='git status --untracked-files=all'
+alias di='git diff'
+alias dis='git diff --staged'
+alias dit='git diff | tig'
+alias dist='git diff --staged | tig'
+alias ci='git commit -S'
+alias co='git checkout'
+alias br='git branch'
+alias ad='git add'
+alias fa='git fetch --all --prune'
+alias ga='gitk --all'
+```
+
+I also use alias completion using complete alias, eg: `complete -F _complete_alias st` for `st` alias.
+
 ## Demo Gitlab
 
 - URL: <https://gitlab.sikademo.com>
