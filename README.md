@@ -140,6 +140,12 @@ Save it to `.bashrc`:
 echo 'export PS1="\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ "' >> ~/.bashrc
 ```
 
+## Demo Gitlab
+
+- URL: <https://gitlab.sikademo.com>
+- User: `demo`
+- Password: `demo`
+
 ## New Repository
 
 Create on [Github](https://github.com/new) (eg.: `example-repository`) and clone it.
