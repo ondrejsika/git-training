@@ -5,11 +5,9 @@
     2019 Ondrej Sika <ondrej@ondrejsika.com>
     https://github.com/ondrejsika/git-training
 
-
 ## Install Git
 
 Download installer from <https://git-scm.com> or use package manager.
-
 
 ### Mac
 
@@ -35,13 +33,11 @@ I prefer VS Code, you can download it here: <https://code.visualstudio.com/downl
 
 Or download it using package manager:
 
-
 ### Mac
 
 ```
 brew cask install visual-studio-code
 ```
-
 
 ### Windows
 
@@ -53,13 +49,12 @@ choco install vscode
 
 ## About Me - Ondrej Sika
 
-__Freelance DevOps Engineer, Consultant & Lecturer__
+**Freelance DevOps Engineer, Consultant & Lecturer**
 
 - Complete DevOps Pipeline
 - Open Source / Linux Stack
 - Cloud & On-Premise
 - Technologies: Git, Gitlab, Gitlab CI, Docker, Kubernetes, Terraform, Prometheus, ELK / EFK, Rancher, Proxmox, DigitalOcean, AWS
-
 
 ## Star, Create Issues, Fork, and Contribute
 
@@ -69,13 +64,11 @@ If you found bug, create issue or pull request.
 
 Also feel free to propose improvements by creating issues.
 
-
 ## Live Chat
 
 For sharing links & "secrets".
 
 <https://tlk.io/sika-git>
-
 
 ## Basic Configuration
 
@@ -90,7 +83,7 @@ git config --global user.email "ondrej@ondrejsika.com"
 
 ### Rebase workflow (if you want to use rebase workflow)
 
-__WARNING__: Apply only if you want to use rebase workflow!
+**WARNING**: Apply only if you want to use rebase workflow!
 
 ```
 git config --global pull.ff only
@@ -118,7 +111,6 @@ Sources:
 
 - https://help.github.com/en/github/using-git/associating-text-editors-with-git
 - https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits/53901686#53901686
-
 
 ### Git PS1
 
@@ -148,7 +140,6 @@ Save it to `.bashrc`:
 echo 'export PS1="\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ "' >> ~/.bashrc
 ```
 
-
 ## New Repository
 
 Create on [Github](https://github.com/new) (eg.: `example-repository`) and clone it.
@@ -165,7 +156,6 @@ mkdir example-repository
 cd example-repository
 git init
 ```
-
 
 ## Gitignore
 
@@ -403,7 +393,6 @@ If you want delete remote, use:
 git remote remove <name>
 ```
 
-
 ### `git push`
 
 Push your commits to remote repository (Github).
@@ -415,7 +404,6 @@ git push <remote> <branch> -u
 # Push commit
 git push
 ```
-
 
 ### `git pull`
 
@@ -477,7 +465,6 @@ git stash show -p stash@{1}
 ```
 
 More about stash in offical documentation - <https://git-scm.com/docs/git-stash>
-
 
 ### List Branches
 
@@ -713,17 +700,16 @@ git submodule foreach --recursive 'git reset --hard'
 
 ## Thank you! & Questions?
 
-That's it. Do you have any questions? __Let's go for a beer!__
-
+That's it. Do you have any questions? **Let's go for a beer!**
 
 ### Ondrej Sika
 
 - email: <ondrej@sika.io>
 - web: <https://sika.io>
 - twitter: [@ondrejsika](https://twitter.com/ondrejsika)
-- linkedin:	[/in/ondrejsika/](https://linkedin.com/in/ondrejsika/)
+- linkedin: [/in/ondrejsika/](https://linkedin.com/in/ondrejsika/)
 - Newsletter, Slack, Facebook & Linkedin Groups: <https://join.sika.io>
 
-_Do you like the course? Write me recommendation on Twitter (with handle `@ondrejsika`) and LinkedIn (add me [/in/ondrejsika](https://www.linkedin.com/in/ondrejsika/) and I'll send you request for recommendation). __Thanks__._
+_Do you like the course? Write me recommendation on Twitter (with handle `@ondrejsika`) and LinkedIn (add me [/in/ondrejsika](https://www.linkedin.com/in/ondrejsika/) and I'll send you request for recommendation). **Thanks**._
 
 Wanna to go for a beer or do some work together? Just [book me](https://book-me.sika.io) :)
