@@ -567,6 +567,21 @@ Example:
 git reset -i HEAD~6
 ```
 
+## Cherry Pick
+
+Copy commit (ref) to actual HEAD.
+
+```
+git cherry-pick <ref>
+```
+
+Example:
+
+```
+git cherry-pick v1.0.x
+git cherry-pick 47bdfb7
+```
+
 ## `git reflog`
 
 Reflog shows a history of refference. By default shows a `HEAD`. You can undo any git operations even reset.
