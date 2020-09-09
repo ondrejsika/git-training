@@ -222,7 +222,7 @@ node_modules
 out
 ```
 
-## EditorCongfig
+## EditorConfig
 
 File `.editorconfig` define editors behavior, like spaces vs tabs or tab size, for example.
 
