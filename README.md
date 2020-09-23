@@ -192,7 +192,7 @@ I also use alias completion using complete alias, eg: `complete -F _complete_ali
 
 - URL: <https://gitlab.sikademo.com>
 - User: `demo`
-- Password: `demo`
+- Password: `asdfasdf`
 
 ## New Repository
 
