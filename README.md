@@ -603,6 +603,35 @@ And see (`git status`, `git diff`), no changes.
 
 ## Interactive Rebase
 
+Create some demo commits:
+
+```
+touch A
+git add A
+git commit -m A
+touch B
+git add B
+git commit -m B
+touch C
+git add C
+git commit -m C
+touch D
+git add D
+git commit -m D
+touch E
+git add E
+git commit -m E
+touch F
+git add F
+git commit -m F
+touch G
+git add G
+git commit -m G
+touch H
+git add G
+git commit -m H
+```
+
 You rewrite history, join commits, update messages, reorder commits, ...
 
 ```
