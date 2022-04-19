@@ -169,7 +169,7 @@ Those aliases work on every platform (event Windows).
 
 ## My Git Aliases
 
-From [ondrejsika/dotfiles](https://github.com/ondrejsika/dotfiles/blob/master/core/bashrc#L49)
+From [ondrejsika/dotfiles](https://github.com/ondrejsika/dotfiles/blob/master/core/zshrc#L12)
 
 ```
 alias st='git status'
