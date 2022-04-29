@@ -628,7 +628,7 @@ touch G
 git add G
 git commit -m G
 touch H
-git add G
+git add H
 git commit -m H
 ```
 
