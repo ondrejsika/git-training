@@ -87,6 +87,14 @@ git config --global user.name "Ondrej Sika"
 git config --global user.email "ondrej@ondrejsika.com"
 ```
 
+Auto setup remote on push (from Git version 2.37.0)
+
+```
+git config --global --add --bool push.autoSetupRemote true
+```
+
+Source: https://twitter.com/ji/status/1546948817462800384
+
 ### Rebase workflow (if you want to use rebase workflow)
 
 **WARNING**: Apply only if you want to use rebase workflow!
