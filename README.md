@@ -350,6 +350,40 @@ git commit -am "<message>"
 git commit --amend
 ```
 
+### Conventional Commits
+
+<https://www.conventionalcommits.org/>
+
+```
+<type>[(<scope>)]: <message>
+```
+
+Types:
+
+- `feat`
+- `fix`
+- `chore`
+
+My aditional types:
+
+- `init`
+- `VERSION`
+- `content`
+- `ci`
+- `docs`
+- `refactor`
+- `cleanup`
+
+My format with prefix:
+
+```
+[[prefix]] <type>[(<scope>)]: <message>
+```
+
+Prefixes:
+
+- `[auto]`
+
 ### `git log`
 
 Show history of commits
