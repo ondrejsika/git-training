@@ -307,6 +307,44 @@ end_of_line = lf
 max_line_length = off
 ```
 
+## slu file-templates: gitignore & editorconfig
+
+Gitignore
+
+```
+slu file-templates gitignore
+```
+
+```
+slu ft gi
+```
+
+```
+slu file-templates gitignore --terraform --node
+```
+
+```
+slu ft gi --terraform --node
+```
+
+Editorconfig
+
+```
+slu file-templates editorconfig
+```
+
+```
+slu ft ec
+```
+
+```
+slu file-templates editorconfig --go --python
+```
+
+```
+slu ft ec --go --python
+```
+
 ## Basic Commands
 
 ### `git status`
