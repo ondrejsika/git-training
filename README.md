@@ -199,6 +199,7 @@ alias br='git branch'
 alias ad='git add'
 alias fa='git fetch --all --prune'
 alias ga='gitk --all'
+alias glo='git log --oneline '
 ```
 
 I also use alias completion using complete alias, eg: `complete -F _complete_alias st` for `st` alias.
