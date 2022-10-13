@@ -42,6 +42,31 @@ brew cask install visual-studio-code
 choco install vscode
 ```
 
+## Install `slu`
+
+SikaLabs Utils
+
+- Homepage - <https://github.com/sikalabs/slu>
+- Install - <https://github.com/sikalabs/slu#install>
+
+Mac
+
+```
+brew install sikalabs/tap/slu
+```
+
+Linux
+
+```
+curl -fsSL https://raw.githubusercontent.com/sikalabs/slu/master/install.sh | sudo sh
+```
+
+Windows
+
+```
+scoop install https://raw.githubusercontent.com/sikalabs/scoop-bucket/master/slu.json
+```
+
 ## Course
 
 ## About Me - Ondrej Sika
