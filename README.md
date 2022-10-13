@@ -258,6 +258,10 @@ node_modules
 out
 ```
 
+### Github Gitignore Templates
+
+<http://github.com/github/gitignore>
+
 ## EditorConfig
 
 File `.editorconfig` define editors behavior, like spaces vs tabs or tab size, for example.
