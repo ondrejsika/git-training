@@ -204,6 +204,26 @@ alias glo='git log --oneline '
 
 I also use alias completion using complete alias, eg: `complete -F _complete_alias st` for `st` alias.
 
+## `slu git`
+
+```
+slu git url open
+```
+
+With alias `alias guo="slu git url open"`
+
+```
+guo
+```
+
+```
+slu git url get
+```
+
+```
+slu git use-ssh
+```
+
 ## Demo Gitlab
 
 - URL: <https://gitlab.sikademo.com>
