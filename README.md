@@ -224,6 +224,10 @@ slu git url get
 slu git use-ssh
 ```
 
+## VS Code and Git
+
+- Git Graph Plugin - <https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph>
+
 ## Demo Gitlab
 
 - URL: <https://gitlab.sikademo.com>
