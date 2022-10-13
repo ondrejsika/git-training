@@ -84,6 +84,16 @@ git config --global user.name "Ondrej Sika"
 git config --global user.email "ondrej@ondrejsika.com"
 ```
 
+GPG Commit Signing
+
+```
+git config --global commit.gpgsign true
+```
+
+```
+git config --global user.signingkey B000780A20CF1013F7A59081775D8A020903EF6B
+```
+
 Auto setup remote on push (from Git version 2.37.0)
 
 ```
