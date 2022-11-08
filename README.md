@@ -139,6 +139,16 @@ git config --global merge.ff only
 git config --global pull.rebase true
 ```
 
+### Init Default Branch
+
+```
+git config --global init.defaultBranch main
+```
+
+```
+git config --global init.defaultBranch master
+```
+
 ### Git Editor
 
 Git use by default Vim or editor from `EDITOR` environment variable. If you want to use different editor, you can configure it.
