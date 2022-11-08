@@ -69,6 +69,8 @@ scoop install https://raw.githubusercontent.com/sikalabs/scoop-bucket/master/slu
 
 ## Course
 
+![Real version control by Elon Musk](./images/real_version_control.jpg)
+
 ## About Me - Ondrej Sika
 
 **Freelance DevOps Engineer, Consultant & Lecturer**
