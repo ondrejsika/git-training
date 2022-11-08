@@ -683,6 +683,12 @@ git branch
 git branch --all
 ```
 
+### Switch vs Checkout
+
+Switch is new command which implements part of checkout functionality.
+
+See: <https://stackoverflow.com/a/70454786/5281724>
+
 ### Create a Branch
 
 Create branch (and dont switch to it)
