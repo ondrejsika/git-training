@@ -699,7 +699,7 @@ git checkout -b <new_branch> [<branch_from>]
 ### Switch Branch
 
 ```
-git checkout <branc>
+git checkout <branch>
 ```
 
 ### Push & Pull Branch
