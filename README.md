@@ -697,16 +697,28 @@ Switch branch
 git checkout <branch>
 ```
 
+```
+git switch <branch>
+```
+
 Create branch and switch to it
 
 ```
 git checkout -b <new_branch> [<branch_from>]
 ```
 
+```
+git switch -c <new_branch> [<branch_from>]
+```
+
 ### Switch Branch
 
 ```
 git checkout <branch>
+```
+
+```
+git switch <branch>
 ```
 
 ### Push & Pull Branch
