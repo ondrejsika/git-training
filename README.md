@@ -177,13 +177,13 @@ You have to add `__git_ps1` to your `PS1` variable.
 Bash Example:
 
 ```bash
-export PS1="\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ "
+export PS1='\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ '
 ```
 
 Save it to `.bashrc`:
 
 ```bash
-echo 'export PS1="\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ "' >> ~/.bashrc
+echo "export PS1='\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\$ '" >> ~/.bashrc
 ```
 
 ## Aliases
