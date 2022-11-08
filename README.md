@@ -685,14 +685,21 @@ git branch --all
 
 ### Create a Branch
 
+Create branch (and dont switch to it)
+
 ```
-# Create branch (and dont switch to it)
 git branch <new_branch> [<branch_from>]
+```
 
-# Switch branch
+Switch branch
+
+```
 git checkout <branch>
+```
 
-# Create branch and switch to it
+Create branch and switch to it
+
+```
 git checkout -b <new_branch> [<branch_from>]
 ```
 
