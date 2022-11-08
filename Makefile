@@ -5,5 +5,4 @@ fmt-check:
 	yarn run prettier-check
 
 setup-git-hooks:
-	rm -rf .git/hooks
-	cd .git && ln -s ../.git-hooks hooks
+	git config --local core.hooksPath .git-hooks
