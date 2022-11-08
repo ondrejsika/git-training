@@ -741,6 +741,8 @@ git pull
 
 You can merge branches locally or on Github / Gitlab using Pull / Merge Requests.
 
+![Merge hell](./images/merge_hell.png)
+
 ### Rebase
 
 See my czech article about rebase: https://ondrej-sika.cz/git/rebase/
