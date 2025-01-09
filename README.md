@@ -250,7 +250,7 @@ slu git use-ssh
 ## Demo Gitlab
 
 - URL: <https://gitlab.sikademo.com>
-- User: `demo`
+- User: `demo-user`
 - Password: `asdfasdf`
 
 ## New Repository
