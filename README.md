@@ -39,6 +39,10 @@ brew cask install visual-studio-code
 ### Windows
 
 ```
+winget install -e --id Git.Git
+```
+
+```
 choco install vscode
 ```
 
