@@ -106,6 +106,15 @@ Join my Slack for future discussion & help.
 
 <https://sika.link/slack-sikapublic>
 
+## Overview of Git Storage
+
+- Not diffs, but snapshots
+- https://git-scm.com/book/en/v2/Getting-Started-What-is-Git
+
+![detlas](./images/deltas.png)
+
+![snapshots](./images/snapshots.png)
+
 ## Basic Configuration
 
 I prefer global configuration (using `--global`) stored in your home directory applied to all repositories.
