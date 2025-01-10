@@ -20,6 +20,12 @@ apt install git
 
 ### Windows
 
+<https://git-scm.com/downloads/win>
+
+```
+winget install -e --id Git.Git
+```
+
 ```
 choco install git
 ```
@@ -37,12 +43,6 @@ brew cask install visual-studio-code
 ```
 
 ### Windows
-
-<https://git-scm.com/downloads/win>
-
-```
-winget install -e --id Git.Git
-```
 
 ```
 choco install vscode
