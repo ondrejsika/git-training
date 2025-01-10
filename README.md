@@ -137,6 +137,12 @@ git config --global init.defaultBranch main
 git config --global init.defaultBranch master
 ```
 
+## GPG sign tags by default
+
+```
+git config --global tag.gpgSign true
+```
+
 ### Git Editor
 
 Git use by default Vim or editor from `EDITOR` environment variable. If you want to use different editor, you can configure it.
