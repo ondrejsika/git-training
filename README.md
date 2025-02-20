@@ -94,17 +94,18 @@ If you found bug, create issue or pull request.
 
 Also feel free to propose improvements by creating issues.
 
-## Live Chat
+## Chat
 
 For sharing links & "secrets".
 
-<https://tlk.io/sika-git>
+- Zoom Chat
+- Microsoft Teams
+- https://sika.link/chat (tlk.io)
+- [Open](https://sikapublic.slack.com) my Slack (if you already joined), [join](https://sika.link/slack-sikapublic) if you haven't
 
 ## Slack
 
-Join my Slack for future discussion & help.
-
-<https://sika.link/slack-sikapublic>
+[Join my Slack](https://sika.link/slack-sikapublic) for future discussion & help.
 
 ## Overview of Git Storage
 
