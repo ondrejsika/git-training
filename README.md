@@ -103,9 +103,11 @@ For sharing links & "secrets".
 - https://sika.link/chat (tlk.io)
 - [Open](https://sikapublic.slack.com) my Slack (if you already joined), [join](https://sika.link/slack-sikapublic) if you haven't
 
-## Slack
+## Slack & Newsletter
 
 [Join my Slack](https://sika.link/slack-sikapublic) for future discussion & help.
+
+[Subscribe to my Newsletter](https://sika.link/newsletter) for future DevOps topics.
 
 ## Overview of Git Storage
 
