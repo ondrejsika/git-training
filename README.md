@@ -283,6 +283,10 @@ slu git use-ssh
 - User: `demo-user`
 - Password: `asdfasdf`
 
+### Gitlab Upgrade Path
+
+https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/
+
 ## New Repository
 
 Create on [Github](https://github.com/new) (eg.: `example-repository`) and clone it.
