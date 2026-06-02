@@ -118,6 +118,13 @@ For sharing links & "secrets".
 
 ![snapshots](./images/snapshots.png)
 
+## Git Cheat Sheets
+
+- https://git-scm.com/cheat-sheet
+- https://git-scm.com/cheat-sheet.pdf ([local copy](./_pdf/git_scm_git_cheat_sheet.pdf))
+- https://about.gitlab.com/images/press/git-cheat-sheet.pdf ([local copy](./_pdf/gitlab_git_cheat_sheet.pdf))
+- https://education.github.com/git-cheat-sheet-education.pdf ([local copy](./_pdf/github_git_cheat_sheet.pdf))
+
 ## Basic Configuration
 
 I prefer global configuration (using `--global`) stored in your home directory applied to all repositories.
