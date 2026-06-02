@@ -141,7 +141,6 @@ git config --global user.email "ondrej@ondrejsika.com"
 **WARNING**: Apply only if you want to use rebase workflow!
 
 ```
-git config --global pull.ff only
 git config --global merge.ff only
 git config --global pull.rebase true
 ```
