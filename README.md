@@ -176,6 +176,12 @@ git config --local tag.gpgSign false
 Git use by default Vim or editor from `EDITOR` environment variable. If you want to use different editor, you can configure it.
 
 ```
+git config --global core.editor vim
+```
+
+or
+
+```
 git config --global core.editor emacs
 ```
 
