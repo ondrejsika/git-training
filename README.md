@@ -667,6 +667,34 @@ git push <remote> <branch> -u
 git push
 ```
 
+### `git fetch`
+
+Download new commits and branches from remote repository without applying them to your local branches.
+
+```
+git fetch
+```
+
+Fetch from all remotes:
+
+```
+git fetch --all
+```
+
+Fetch and remove remote-tracking branches that no longer exist on the remote:
+
+```
+git fetch --prune
+```
+
+Fetch from all remotes and prune stale branches:
+
+```
+git fetch --all --prune
+```
+
+Unlike `git pull`, `git fetch` never changes your working directory or local branches — it only updates the remote-tracking references (e.g. `origin/main`). You can inspect the changes before merging or rebasing.
+
 ### `git pull`
 
 Pull new commits from remote repository (Github).
@@ -674,6 +702,8 @@ Pull new commits from remote repository (Github).
 ```
 git pull
 ```
+
+`git pull` is shorthand for `git fetch` followed by `git merge` (or `git rebase` if configured).
 
 ## Working with Branches
 
