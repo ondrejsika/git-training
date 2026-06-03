@@ -303,6 +303,63 @@ slu git use-ssh
 
 https://gitlab-com.gitlab.io/support/toolbox/upgrade-path/
 
+## SSH Key Setup
+
+SSH keys allow you to authenticate with GitHub/GitLab without entering a password every time.
+
+### Generate SSH Key
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+Accept the default file location (`~/.ssh/id_ed25519`) and optionally set a passphrase.
+
+### Add Key to SSH Agent
+
+Mac / Linux:
+
+```
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+
+or just
+
+```
+ssh-add
+```
+
+### Add Public Key to GitHub / GitLab
+
+Copy your public key:
+
+```
+cat ~/.ssh/id_ed25519.pub
+```
+
+Then paste it into:
+
+- GitHub: <https://github.com/settings/ssh/new>
+- GitLab.com: <https://gitlab.com/-/user_settings/ssh_keys>
+- gitlab.sikademo.com: <https://gitlab.sikademo.com/-/user_settings/ssh_keys>
+
+### Test the Connection
+
+```
+ssh -T git@github.com
+```
+
+```
+ssh -T git@gitlab.com
+```
+
+```
+ssh -T git@gitlab.sikademo.com
+```
+
+You should see a welcome message confirming your identity.
+
 ## New Repository
 
 Create on [Github](https://github.com/new) (eg.: `example-repository`) and clone it.
