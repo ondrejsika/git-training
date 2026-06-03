@@ -234,7 +234,7 @@ You can create own git aliases:
 git config --global alias.<alias> <command>
 ```
 
-Examle:
+Example:
 
 ```
 git config --global alias.co checkout
@@ -489,7 +489,7 @@ Save prepared changes to repository
 git commit
 ```
 
-#### Create commit form all changes (not new files)
+#### Create commit from all changes (not new files)
 
 ```
 git commit -a
@@ -501,7 +501,7 @@ git commit -a
 git commit <file>
 ```
 
-#### Specify message in parameter insted of open vim
+#### Specify message in parameter instead of open vim
 
 ```
 git commit -m "<message>"
@@ -607,7 +607,7 @@ gitk --all
 
 ### Remote Repository (Github, Gitlab)
 
-If you have clonned repository, `git clone` has added configuration of repository.
+If you have cloned repository, `git clone` has added configuration of repository.
 
 Check it by:
 
@@ -804,7 +804,7 @@ See my czech article about rebase: https://ondrej-sika.cz/git/rebase/
 
 ## Git Reset
 
-Reset HEAD (current brach) to specific state.
+Reset HEAD (current branch) to specific state.
 
 Set HEAD to specific state, but don't change files in working directory.
 
@@ -867,7 +867,7 @@ git add H
 git commit -m H
 ```
 
-You rewrite history, join commits, update messages, reorder commits, ...
+You can rewrite history, join commits, update messages, reorder commits, ...
 
 ```
 git rebase -i <ref>
@@ -1086,10 +1086,10 @@ Start bisect session
 git bisect start
 ```
 
-Select goog commit
+Select good commit
 
 ```
-git bisect goog <ref>
+git bisect good <ref>
 ```
 
 Set bad commit
@@ -1106,7 +1106,7 @@ If yes
 git bisect bad
 ```
 
-In not
+If not
 
 ```
 git bisect good
