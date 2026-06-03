@@ -15,7 +15,7 @@ brew install git
 ### Linux
 
 ```
-apt install git
+sudo apt install git
 ```
 
 ### Windows
