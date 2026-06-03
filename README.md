@@ -646,6 +646,23 @@ git log --oneline
 git log --oneline --graph --all
 ```
 
+### `git show`
+
+Show details of a specific commit (message, author, diff):
+
+```
+git show <ref>
+```
+
+Examples:
+
+```
+git show HEAD
+git show HEAD~1
+git show 47bdfb7
+git show v1.0.0
+```
+
 ### Browsing history
 
 #### Tig
