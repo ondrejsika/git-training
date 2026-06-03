@@ -696,7 +696,7 @@ brew install tig
 Linux
 
 ```
-apt install tig
+sudo apt install tig
 ```
 
 ##### Usage
