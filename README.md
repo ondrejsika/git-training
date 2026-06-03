@@ -550,16 +550,18 @@ If you want to see staged changes (added, prepared for commit), you have to use:
 git diff --staged
 ```
 
-### Unstage
+### `git restore`
 
-Remove changes from next commit
+Discard changes in the working directory (revert file to last committed state):
 
 ```
-# Unstage all changes
-git reset
+git restore <file>
+```
 
-# Unstage file
-git reset -- <path>
+Unstage a file (remove from index without discarding changes):
+
+```
+git restore --staged <file>
 ```
 
 ### `git commit`
