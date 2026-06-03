@@ -198,6 +198,14 @@ Sources:
 - https://help.github.com/en/github/using-git/associating-text-editors-with-git
 - https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits/53901686#53901686
 
+## Auto Setup Remote on Push
+
+From Git version 2.37.0, Git can automatically set the upstream when pushing a new branch:
+
+```
+git config --global --add --bool push.autoSetupRemote true
+```
+
 ### Git PS1
 
 If you want to see your branch in terminal prompt you have to use [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).
