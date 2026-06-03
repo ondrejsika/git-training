@@ -572,6 +572,10 @@ Unstage a file (remove from index without discarding changes):
 git restore --staged <file>
 ```
 
+### Vim Cheat Sheet
+
+- https://vim.rtorr.com/
+
 ### `git commit`
 
 Save prepared changes to repository
