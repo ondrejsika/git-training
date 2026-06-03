@@ -928,6 +928,41 @@ You can merge branches locally or on Github / Gitlab using Pull / Merge Requests
 
 ![Merge hell](./images/merge_hell.png)
 
+### Conflict Resolution
+
+When rebasing, Git may hit a conflict and mark the file:
+
+    <<<<<<< HEAD
+    your changes
+    =======
+    incoming changes
+    >>>>>>> feature-branch
+
+To see which files have conflicts:
+
+```
+git status
+```
+
+To see the conflicting changes:
+
+```
+git diff
+```
+
+Resolve the conflict by editing the file to keep what you want, then:
+
+```
+git add <file>
+git rebase --continue
+```
+
+To abort and go back to the state before the rebase:
+
+```
+git rebase --abort
+```
+
 ### Rebase
 
 See my czech article about rebase: https://ondrej-sika.cz/git/rebase/
