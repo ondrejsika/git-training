@@ -377,6 +377,32 @@ cd example-repository
 git init
 ```
 
+## `git clone`
+
+Clone a remote repository to your local machine:
+
+```
+git clone <url>
+```
+
+Example:
+
+```
+git clone git@github.com:ondrejsika/example-repository.git
+```
+
+Clone into a specific directory:
+
+```
+git clone <url> <directory>
+```
+
+Example:
+
+```
+git clone git@github.com:ondrejsika/example-repository.git my-repo
+```
+
 ## Gitignore
 
 File `.gitignore` defines files ignored by Git. Those files doesn't exist for Git. This is a simple example for Next.js project.
