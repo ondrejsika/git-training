@@ -1152,6 +1152,27 @@ Example:
 git push origin :v1.0.2
 ```
 
+## Detached HEAD
+
+You enter detached HEAD state when you check out a specific commit or tag directly instead of a branch. HEAD points to a commit, not a branch ref — any commits you make here are not on any branch and can be lost.
+
+```
+git checkout <commit>
+git checkout v1.0.0
+```
+
+To go back to a branch:
+
+```
+git switch <branch>
+```
+
+To save your work as a new branch:
+
+```
+git switch -c <new-branch>
+```
+
 ## `git blame`
 
 See authors of actual code
