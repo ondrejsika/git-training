@@ -255,7 +255,7 @@ git config --global alias.st status
 
 Usage of aliases is `git co` for `git checkout`, `git ci` for `git commit`, ...
 
-Those aliases work on every platform (event Windows).
+Those aliases work on every platform (even Windows).
 
 ## My Git Aliases
 
@@ -632,7 +632,7 @@ Types:
 - `fix`
 - `chore`
 
-My aditional types:
+My additional types:
 
 - `init`
 - `VERSION`
@@ -874,7 +874,7 @@ git stash show stash@{1}
 git stash show -p stash@{1}
 ```
 
-More about stash in offical documentation - <https://git-scm.com/docs/git-stash>
+More about stash in official documentation - <https://git-scm.com/docs/git-stash>
 
 ### List Branches
 
@@ -894,7 +894,7 @@ See: <https://stackoverflow.com/a/70454786/5281724>
 
 ### Create a Branch
 
-Create branch (and dont switch to it)
+Create branch (and don't switch to it)
 
 ```
 git branch <new_branch> [<branch_from>]
@@ -1098,7 +1098,7 @@ git cherry-pick 47bdfb7
 
 ## `git reflog`
 
-Reflog shows a history of refference. By default shows a `HEAD`. You can undo any git operations even reset.
+Reflog shows a history of reference. By default shows a `HEAD`. You can undo any git operations even reset.
 
 ```
 git reflog
