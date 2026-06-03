@@ -206,6 +206,8 @@ From Git version 2.37.0, Git can automatically set the upstream when pushing a n
 git config --global --add --bool push.autoSetupRemote true
 ```
 
+Source: <https://twitter.com/ji/status/1546948817462800384>
+
 ### Git PS1
 
 If you want to see your branch in terminal prompt you have to use [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).
