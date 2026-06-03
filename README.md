@@ -1056,6 +1056,17 @@ Example:
 git rebase -i HEAD~6
 ```
 
+Available actions in the editor:
+
+| Action   | Description                                             |
+| -------- | ------------------------------------------------------- |
+| `pick`   | Keep the commit as-is                                   |
+| `reword` | Keep the commit but edit its message                    |
+| `edit`   | Pause rebase to amend the commit                        |
+| `squash` | Merge into the previous commit, combining messages      |
+| `fixup`  | Merge into the previous commit, discarding this message |
+| `drop`   | Remove the commit entirely                              |
+
 ## Cherry Pick
 
 Copy commit (ref) to actual HEAD.
