@@ -969,6 +969,14 @@ git rebase --abort
 
 See my czech article about rebase: https://ondrej-sika.cz/git/rebase/
 
+### Merge (fast-forward only)
+
+After rebasing your branch on top of `master`, merge it with fast-forward only:
+
+```
+git merge --ff-only <branch>
+```
+
 ## Git Reset
 
 Reset HEAD (current branch) to specific state.
