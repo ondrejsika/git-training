@@ -648,6 +648,8 @@ git log --oneline
 git log --oneline --graph --all
 ```
 
+`--graph` draws a branch/merge graph in the terminal. `--all` shows all branches, not just the current one.
+
 ### `git show`
 
 Show details of a specific commit (message, author, diff):
