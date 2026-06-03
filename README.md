@@ -39,7 +39,7 @@ Or download it using package manager:
 ### Mac
 
 ```
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 ```
 
 ### Windows
