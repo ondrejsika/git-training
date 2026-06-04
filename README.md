@@ -143,9 +143,9 @@ git config --global user.email "ondrej@ondrejsika.com"
 You can also use environment variables `GIT_AUTHOR_NAME`, `GIT_AUTHOR_EMAIL`, `GIT_COMMITTER_NAME`, `GIT_COMMITTER_EMAIL` for temporary override of user name and email.
 
 ```
-export GIT_AUTHOR_NAME=Ondrej Sika
+export GIT_AUTHOR_NAME="Ondrej Sika"
 export GIT_AUTHOR_EMAIL=ondrej@ondrejsika.com
-export GIT_COMMITTER_NAME=Ondrej Sika
+export GIT_COMMITTER_NAME="Ondrej Sika"
 export GIT_COMMITTER_EMAIL=ondrej@ondrejsika.com
 ```
 
