@@ -711,6 +711,28 @@ tig
 tig --all
 ```
 
+##### Key Bindings
+
+| Key                    | Action                        |
+| ---------------------- | ----------------------------- |
+| `j` / `k` or `↑` / `↓` | Move up / down                |
+| `enter`                | Open commit / view details    |
+| `tab`                  | Switch between views          |
+| `q`                    | Close current view            |
+| `Q`                    | Quit tig                      |
+| `r`                    | Refresh                       |
+| `/`                    | Search                        |
+| `n` / `N`              | Next / previous search result |
+| `d`                    | Show diff                     |
+| `s`                    | Show status view              |
+| `l`                    | Show log view                 |
+| `b`                    | Show blame view               |
+| `?`                    | Show help                     |
+
+##### Tig Cheat Sheet
+
+- https://devhints.io/tig
+
 #### Lazygit
 
 Terminal UI for Git with a more visual and interactive experience.
