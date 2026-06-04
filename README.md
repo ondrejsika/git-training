@@ -735,6 +735,33 @@ sudo apt install lazygit
 lazygit
 ```
 
+##### Navigation
+
+| Key                    | Action                             |
+| ---------------------- | ---------------------------------- |
+| `h` / `l` or `←` / `→` | Switch between panels              |
+| `j` / `k` or `↑` / `↓` | Move up / down in a list           |
+| `[` / `]`              | Switch between tabs within a panel |
+| `enter`                | Confirm / open selected item       |
+| `esc`                  | Go back / cancel                   |
+| `q`                    | Quit lazygit                       |
+| `?`                    | Show help / all keybindings        |
+
+##### Basic Shortcuts
+
+| Key     | Action                                                     |
+| ------- | ---------------------------------------------------------- |
+| `space` | Stage / unstage file or hunk                               |
+| `a`     | Stage / unstage all files                                  |
+| `c`     | Commit staged changes                                      |
+| `p`     | Push                                                       |
+| `P`     | Pull                                                       |
+| `f`     | Fetch                                                      |
+| `b`     | Open branch menu (create, checkout, delete, merge, rebase) |
+| `z`     | Undo last action                                           |
+| `e`     | Edit file in editor                                        |
+| `/`     | Filter / search in current panel                           |
+
 #### Gitk
 
 Graphic commit log. Distributed with Git.
