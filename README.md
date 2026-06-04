@@ -711,6 +711,30 @@ tig
 tig --all
 ```
 
+#### Lazygit
+
+Terminal UI for Git with a more visual and interactive experience.
+
+##### Install
+
+Mac
+
+```
+brew install lazygit
+```
+
+Linux
+
+```
+sudo apt install lazygit
+```
+
+##### Usage
+
+```
+lazygit
+```
+
 #### Gitk
 
 Graphic commit log. Distributed with Git.
